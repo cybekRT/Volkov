@@ -22,6 +22,10 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func btn(_ sender: Any) {
+        let segue = "segueSheet"
+        self.performSegue(withIdentifier: segue, sender: nil)
+    }
+    
 }
 
